@@ -15,7 +15,6 @@ nav ul {
     display:flex;
     list-style:none;
     
-    
 }
 
 nav img {
@@ -26,3 +25,35 @@ nav li {
     margin:0 10px 0 20px;
 }
 
+/*Main*/
+
+#banner-image
+{ height: 450px;
+width: 100%;
+object-fit:cover;}
+
+#banner-content
+{
+position: absolute;
+top: 5px;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+}
+
+#banner
+{
+    position: relative;
+}
+
+#banner-content img {
+    height: 60px;
+}
+h1{
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+}
