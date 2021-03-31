@@ -57,3 +57,37 @@ h1{
     font-weight: 400;
     font-size: 26px;
 }
+
+/*section*/
+
+#présentation-description
+{
+    max-width: 700px;
+    
+}
+
+#information 
+{
+    display:flex;
+    max-width: 700px;
+}
+
+#quote
+
+{max-width: 700px;
+    margin-top: 30px;
+}
+
+#présentation 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+#information article
+{
+    padding: 10px;
+}
